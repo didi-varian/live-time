@@ -34101,13 +34101,13 @@ F.mS.prototype={
 aN:function(){return new F.xQ(C.o)}}
 F.xQ.prototype={
 aY:function(){var t=Date.now()
-this.d=T.Bq("hh:mm").fm(new P.br(t,!1))
+this.d=T.Bq("H:mm").fm(new P.br(t,!1))
 P.NZ(P.cV(0,0,1),new F.Kq(this))
 this.bg()},
 P:function(a){var t=null
 return new M.nA(new T.iT(C.by,t,t,new T.qG(C.a3,C.o4,C.o5,C.jm,t,C.pL,t,H.b([L.QP(this.d,A.k9(t,t,C.uj,t,t,t,t,t,t,t,t,540,t,t,t,0.8,!0,t,t,t,t,t,t)),new F.nG(t)],u.G),t),t),C.k,t)},
 m7:function(){var t=Date.now()
-this.aM(new F.Kp(this,T.Bq("hh:mm").fm(new P.br(t,!1))))}}
+this.aM(new F.Kp(this,T.Bq("H:mm").fm(new P.br(t,!1))))}}
 F.Kq.prototype={
 $1:function(a){return this.a.m7()}}
 F.Kp.prototype={
