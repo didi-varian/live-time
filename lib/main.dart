@@ -1,6 +1,12 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:pwa/client.dart' as pwa;
+
+// main() {
+//   // register PWA ServiceWorker for offline caching.
+//   new pwa.Client();
+// }
 
 void main() => runApp(MyApp());
 
@@ -40,11 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Text(
               _timeString,
-              style: TextStyle(
-                color: Colors.red,
-                fontSize: 540,
-                height: 0.8
-              ),
+              style: TextStyle(color: Colors.red, fontSize: 540, height: 0.8),
             ),
             SecondTime(),
           ],
@@ -85,11 +87,7 @@ class _SecondTimeState extends State<SecondTime> {
   Widget build(BuildContext context) {
     return Text(
       _timeString,
-      style: TextStyle(
-        color: Colors.yellow,
-        fontSize: 240,
-        height: 0.8
-      ),
+      style: TextStyle(color: Colors.yellow, fontSize: 240, height: 0.8),
     );
   }
 
