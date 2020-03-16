@@ -38,11 +38,6 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.end,
           children: <Widget>[
-            // Container(
-            // color: Colors.white,
-            // padding: EdgeInsets.zero,
-            // margin: EdgeInsets.zero,
-            // child:
             Text(
               _timeString,
               style: TextStyle(
@@ -51,14 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 0.8
               ),
             ),
-            // ),
-            // Container(
-            // color: Colors.red,
-            // padding: EdgeInsets.zero,
-            // margin: EdgeInsets.zero,
-            // child:
             SecondTime(),
-            // ),
           ],
         ),
       ),
@@ -74,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   String _formatDateTime(DateTime dateTime) {
-    return DateFormat('hh:mm').format(dateTime);
+    return DateFormat('H:mm').format(dateTime);
   }
 }
 
